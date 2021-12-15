@@ -11,5 +11,5 @@ app.get('/', function(req, res){
 
 const port = process.env.PORT || 4005
 
-app.listen(port, () => {console.log('Avengers! Assemble ... on port ${port}.')})
+app.listen(port, () => {console.log(`Avengers! Assemble ... on port ${port}.`)})
 // C:\Users\16096\Desktop\DevMountain\Interactive-lectures\Week-6\deployment\server\index.js
